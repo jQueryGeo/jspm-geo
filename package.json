@@ -1,5 +1,5 @@
 {
-  "name": "jspmgeomtest",
+  "name": "jspm-geo",
   "dependencies": {
     "jspm": "^0.16.23"
   },
