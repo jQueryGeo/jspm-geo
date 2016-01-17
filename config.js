@@ -1,5 +1,5 @@
 System.config({
-  baseURL: "/proj/ryanttb/jspmgeotest/",
+  baseURL: "/proj/jQueryGeo/jspm-geo/",
   defaultJSExtensions: true,
   transpiler: "babel",
   babelOptions: {
@@ -19,7 +19,6 @@ System.config({
     "core-js": "npm:core-js@1.2.6",
     "jquery": "npm:jquery@2.2.0",
     "jquery.geo": "npm:jquery.geo@1.0.0-b3.2",
-    "jquery.mousewheel": "npm:jquery.mousewheel@3.1.9",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
@@ -48,8 +47,7 @@ System.config({
       "util": "github:jspm/nodelibs-util@0.1.0"
     },
     "npm:jquery.geo@1.0.0-b3.2": {
-      "jquery": "npm:jquery@2.2.0",
-      "process": "github:jspm/nodelibs-process@0.1.2"
+      "jquery": "npm:jquery@2.2.0"
     },
     "npm:path-browserify@0.0.0": {
       "process": "github:jspm/nodelibs-process@0.1.2"

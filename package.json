@@ -6,13 +6,17 @@
   "jspm": {
     "dependencies": {
       "jquery": "npm:jquery@^2.2.0",
-      "jquery.geo": "npm:jquery.geo@^1.0.0-b3.2",
-      "jquery.mousewheel": "npm:jquery.mousewheel@^3.1.9"
+      "jquery.geo": "npm:jquery.geo@^1.0.0-b3.2"
     },
     "devDependencies": {
       "babel": "npm:babel-core@^5.8.24",
       "babel-runtime": "npm:babel-runtime@^5.8.24",
       "core-js": "npm:core-js@^1.1.4"
+    },
+    "overrides": {
+      "npm:jquery.geo@1.0.0-b3.2": {
+        "format": "global"
+      }
     }
   }
 }
