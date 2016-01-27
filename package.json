@@ -18,5 +18,8 @@
         "format": "global"
       }
     }
+  },
+  "devDependencies": {
+    "jspm": "^0.16.25"
   }
 }
