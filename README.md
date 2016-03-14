@@ -3,7 +3,7 @@
 To use jQuery Geo with jspm, you must install jQuery Geo as a global format dependency after installing jquery to your project:
 
     $ jspm install jquery
-    $ jspm install npm:jquery.geo -o "{format: 'global'}"
+    $ jspm install npm:jquery.geo
 
 This will properly add jquery.geo into your app's package.json file. If you are starting anew, the initial commands would look like this:
 
@@ -11,7 +11,7 @@ This will properly add jquery.geo into your app's package.json file. If you are 
     $ npm install jspm --save-dev
     $ jspm init
     $ jspm install jquery
-    $ jspm install npm:jquery.geo -o "{format: 'global'}"
+    $ jspm install npm:jquery.geo
 
 Your resulting package.json will be similar to:
 
@@ -25,11 +25,6 @@ Your resulting package.json will be similar to:
           "babel": "npm:babel-core@^5.8.24",
           "babel-runtime": "npm:babel-runtime@^5.8.24",
           "core-js": "npm:core-js@^1.1.4"
-        },
-        "overrides": {
-          "npm:jquery.geo@1.0.0-b3.2": {
-            "format": "global"
-          }
         }
       }
     }
